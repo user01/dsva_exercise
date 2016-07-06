@@ -1,0 +1,18 @@
+{
+  "name": "javascript_version",
+  "version": "1.0.0",
+  "description": "Javascript functions to satisfy exercise test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/_mocha  --ui bdd --reporter dot ./tests/**/*.js"
+  },
+  "author": "Codex10 <dev@codex10.com> (http://codex10.com)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "mocha": "^2.5.3",
+    "should": "^4.6.5",
+    "ramda": "^0.21.0"
+  }
+}
