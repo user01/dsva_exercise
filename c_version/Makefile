@@ -3,4 +3,4 @@ main: ./src/trial.c ./src/trial.c
   ./bin/main.out
 
 clean:
-  rm bin/*.out
+	rm bin/*.out
