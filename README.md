@@ -1,6 +1,6 @@
 # Number Task Challenge
 
-Multiple implementations of a simple (and apparently unproven) system on positive integers. The logic is as follows:
+Multiple implementations of process on positive integers, known as the [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture). The logic is as follows:
 
     If integer is 1, stop
     If integer is even, divide by 2, repeat
